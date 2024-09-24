@@ -1,4 +1,4 @@
-package com.projectone.resources.health;
+package com.nofoodwaste.resources.health;
 
 import java.text.DecimalFormat;
 import org.eclipse.microprofile.config.inject.ConfigProperty;

@@ -6,7 +6,7 @@ services:
       dockerfile: ./src/main/docker/Dockerfile.jvm
     environment:
       - TEST_VALUE=test
-    container_name: projectone
+    container_name: nofoodwaste_be
     ports:
       - "8080:8080"
       - "5005:5005"
@@ -15,7 +15,7 @@ services:
       - "$HOME/volume/ofco/payara/logs:/opt/payara41/glassfish/domains/domain1/logs"
   database:
     image: postgres:16.4
-    container_name: projectone-db
+    container_name: nofoodwaste_be-db
     environment:
       - POSTGRES_USER=quarkus_test
       - POSTGRES_PASSWORD=quarkus_test

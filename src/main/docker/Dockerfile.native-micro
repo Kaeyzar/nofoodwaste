@@ -10,11 +10,11 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.native-micro -t quarkus/projectone .
+# docker build -f src/main/docker/Dockerfile.native-micro -t quarkus/nofoodwaste_be .
 #
 # Then run the container using:
 #
-# docker run -i --rm -p 8080:8080 quarkus/projectone
+# docker run -i --rm -p 8080:8080 quarkus/nofoodwaste_be
 #
 ###
 FROM quay.io/quarkus/quarkus-micro-image:2.0

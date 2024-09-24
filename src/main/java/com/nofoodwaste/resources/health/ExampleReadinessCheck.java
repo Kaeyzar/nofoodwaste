@@ -1,4 +1,4 @@
-package com.projectone.resources.health;
+package com.nofoodwaste.resources.health;
 
 import org.eclipse.microprofile.health.HealthCheck;
 import org.eclipse.microprofile.health.HealthCheckResponse;

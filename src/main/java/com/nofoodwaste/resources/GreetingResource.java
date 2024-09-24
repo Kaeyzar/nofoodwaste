@@ -1,4 +1,4 @@
-package com.projectone.resources;
+package com.nofoodwaste.resources;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
