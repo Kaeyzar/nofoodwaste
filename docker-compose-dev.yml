@@ -4,6 +4,7 @@ services:
     build:
       context: .
       dockerfile: ./src/main/docker/Dockerfile.jvm
+    image: nofoodwaste_be
     environment:
       - TEST_VALUE=test
     container_name: nofoodwaste_be
